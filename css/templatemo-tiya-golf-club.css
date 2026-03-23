@@ -1423,6 +1423,34 @@ h2 span {
     text-shadow: 0 0 20px rgba(255, 107, 53, 0.8);
 }
 
+/* Pooja Schedule Card */
+.pooja-schedule-card {
+    border: 2px solid rgba(255, 204, 128, 0.3);
+    box-shadow: 0 8px 32px rgba(255, 107, 53, 0.2);
+    transition: all 0.3s ease;
+}
+
+.pooja-schedule-card:hover {
+    border-color: rgba(255, 183, 77, 0.5);
+    box-shadow: 0 12px 40px rgba(255, 143, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.pooja-schedule-card h5 {
+    color: var(--temple-gold) !important;
+    text-shadow: 0 0 15px rgba(255, 213, 79, 0.8);
+}
+
+.pooja-schedule-card .text-warning {
+    color: var(--saffron-light) !important;
+    font-weight: 600;
+}
+
+.pooja-schedule-card strong {
+    color: var(--white-color);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
 /* Temple Border Effects */
 .events-card,
 .gallery-preview-item,
